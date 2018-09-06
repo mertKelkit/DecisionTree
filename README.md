@@ -1,2 +1,2 @@
 # DecisionTree
-'Decision Tree' implementation with Python programming language
+Decision Tree implementation with Python programming language
