@@ -1,0 +1,218 @@
+digraph Tree {
+	node [color=black fontname="courier-bold" fontsize=16.0 margin="0.5, 0.5" shape=note style=filled]
+	edge [fontname="helvetica-bold"]
+	"Referencing column is Uniformity of Cell Size
+Split points 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [316 170]" [label="Referencing column is Uniformity of Cell Size
+Split points 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [316 170]" fillcolor="#a60059b0"]
+	"Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" [label="Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" fillcolor="#ed0012b0"]
+	"Referencing column is Uniformity of Cell Size
+Split points 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [316 170]" -> "Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" [label="  x < 4"]
+	"Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" [label="Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" fillcolor="#ed0012b0"]
+	"Resulting target 
+98.37% -> 2
+1.63% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 302.    5.]
+id = 771689" [label="Resulting target 
+98.37% -> 2
+1.63% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 302.    5.]
+" fillcolor="#fb0004b0"]
+	"Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" -> "Resulting target 
+98.37% -> 2
+1.63% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 302.    5.]
+id = 771689" [label="  x < 2.27 or 2.27 <= x < 5.0"]
+	"Resulting target 
+20.83% -> 2
+79.17% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 5 19]
+id = 771689" [label="Resulting target 
+20.83% -> 2
+79.17% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 5 19]
+" fillcolor="#3500cab0"]
+	"Referencing column is Bare Nuclei
+Split points [ 2.27  5.  ]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [307  24]" -> "Resulting target 
+20.83% -> 2
+79.17% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 5 19]
+id = 771689" [label="  x >= 5.0"]
+	"Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" [label="Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" fillcolor="#0f00f0b0"]
+	"Referencing column is Uniformity of Cell Size
+Split points 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [316 170]" -> "Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" [label="  x >= 4"]
+	"Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" [label="Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" fillcolor="#0f00f0b0"]
+	"Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" [label="Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" fillcolor="#2400dbb0"]
+	"Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" -> "Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" [label="  3.0 <= x < 5.0"]
+	"Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" [label="Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" fillcolor="#2400dbb0"]
+	"Resulting target 
+75.0% -> 2
+25.0% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [3 1]
+id = 975039" [label="Resulting target 
+75.0% -> 2
+25.0% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [3 1]
+" fillcolor="#bf0040b0"]
+	"Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" -> "Resulting target 
+75.0% -> 2
+25.0% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [3 1]
+id = 975039" [label="  6.0 <= x < 8.0"]
+	"Resulting target 
+7.69% -> 2
+92.31% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  3.  36.]
+id = 975039" [label="Resulting target 
+7.69% -> 2
+92.31% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  3.  36.]
+" fillcolor="#1400ebb0"]
+	"Referencing column is Normal Nucleoli
+Split points [ 2.  6.  8.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [ 6 37]" -> "Resulting target 
+7.69% -> 2
+92.31% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  3.  36.]
+id = 975039" [label="  x < 2.0 or 2.0 <= x < 6.0 or x >= 8.0"]
+	"Resulting target 
+2.68% -> 2
+97.32% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [   3.  109.]
+id = 966325" [label="Resulting target 
+2.68% -> 2
+97.32% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [   3.  109.]
+" fillcolor="#0700f8b0"]
+	"Referencing column is Bland Chromatin
+Split points [ 3.  5.]
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [  9 146]" -> "Resulting target 
+2.68% -> 2
+97.32% -> 4
+
+Targets [2- Benign, 4- Malignant]
+Training Samples [   3.  109.]
+id = 966325" [label="  x < 3.0 or x >= 5.0"]
+	"#ff0000b0" [label="Target: 2
+Benign" fillcolor="#ff0000b0" margin="0.6, 0.2"]
+	"#0000ffb0" [label="Target: 4
+Malignant" fillcolor="#0000ffb0" margin="0.6, 0.2"]
+}

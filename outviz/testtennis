@@ -1,0 +1,136 @@
+digraph Tree {
+	node [color=black fontname="courier-bold" fontsize=16.0 margin="0.5, 0.5" shape=note style=filled]
+	edge [fontname="helvetica-bold"]
+	"Referencing column is outlook
+Targets ['yes', 'no']
+Training Samples [9 5]" [label="Referencing column is outlook
+Targets ['yes', 'no']
+Training Samples [9 5]" fillcolor="#a4005bb0"]
+	"Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [4 0]
+id = 22539" [label="Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [4 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is outlook
+Targets ['yes', 'no']
+Training Samples [9 5]" -> "Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [4 0]
+id = 22539" [label="  overcast"]
+	"Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" [label="Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" fillcolor="#660099b0"]
+	"Referencing column is outlook
+Targets ['yes', 'no']
+Training Samples [9 5]" -> "Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" [label="  rainy"]
+	"Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" [label="Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" fillcolor="#660099b0"]
+	"Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 3]
+id = 961684" [label="Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 3]
+" fillcolor="#0000ffb0"]
+	"Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" -> "Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 3]
+id = 961684" [label="  high"]
+	"Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [2 0]
+id = 961684" [label="Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [2 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is humidity
+Targets ['yes', 'no']
+Training Samples [2 3]" -> "Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [2 0]
+id = 961684" [label="  normal"]
+	"Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" [label="Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" fillcolor="#990066b0"]
+	"Referencing column is outlook
+Targets ['yes', 'no']
+Training Samples [9 5]" -> "Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" [label="  sunny"]
+	"Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" [label="Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" fillcolor="#990066b0"]
+	"Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [3 0]
+id = -407939" [label="Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [3 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" -> "Resulting target 
+100.0% -> yes
+
+Targets ['yes', 'no']
+Training Samples [3 0]
+id = -407939" [label="  False"]
+	"Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 2]
+id = -407939" [label="Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 2]
+" fillcolor="#0000ffb0"]
+	"Referencing column is windy
+Targets ['yes', 'no']
+Training Samples [3 2]" -> "Resulting target 
+100.0% -> no
+
+Targets ['yes', 'no']
+Training Samples [0 2]
+id = -407939" [label="  True"]
+	"#ff0000b0" [label="Target: yes" fillcolor="#ff0000b0" margin="0.6, 0.2"]
+	"#0000ffb0" [label="Target: no" fillcolor="#0000ffb0" margin="0.6, 0.2"]
+}

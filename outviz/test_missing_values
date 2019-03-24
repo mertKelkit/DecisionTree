@@ -1,0 +1,108 @@
+digraph Tree {
+	node [color=black fontname="courier-bold" fontsize=16.0 margin="0.5, 0.5" shape=note style=filled]
+	edge [fontname="helvetica-bold"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" [label="Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" fillcolor="#2e00d1b0"]
+	"Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [4 0]
+id = 446379" [label="Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [4 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" -> "Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [4 0]
+id = 446379" [label="  Berk"]
+	"Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" -> "Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="  Furkan"]
+	"Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" -> "Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="  Mert"]
+	"Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" -> "Resulting target 
+100.0% -> positive
+
+Targets [positive- 1, negative- 0]
+Training Samples [1 0]
+id = 446379" [label="  Rümeysa"]
+	"Resulting target 
+100.0% -> negative
+
+Targets [positive- 1, negative- 0]
+Training Samples [ 0 32]
+id = 446379" [label="Resulting target 
+100.0% -> negative
+
+Targets [positive- 1, negative- 0]
+Training Samples [ 0 32]
+" fillcolor="#0000ffb0"]
+	"Referencing column is Name
+Targets [positive- 1, negative- 0]
+Training Samples [ 7 32]" -> "Resulting target 
+100.0% -> negative
+
+Targets [positive- 1, negative- 0]
+Training Samples [ 0 32]
+id = 446379" [label="  Zikri"]
+	"#ff0000b0" [label="Target: positive
+1" fillcolor="#ff0000b0" margin="0.6, 0.2"]
+	"#0000ffb0" [label="Target: negative
+0" fillcolor="#0000ffb0" margin="0.6, 0.2"]
+}

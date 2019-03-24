@@ -1,0 +1,1207 @@
+digraph Tree {
+	node [color=black fontname="courier-bold" fontsize=16.0 margin="0.5, 0.5" shape=note style=filled]
+	edge [fontname="helvetica-bold"]
+	"Referencing column is Duration
+Split points [251.33000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3251 3245]" [label="Referencing column is Duration
+Split points [251.33000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3251 3245]" fillcolor="#80007fb0"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" [label="Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" fillcolor="#bf0040b0"]
+	"Referencing column is Duration
+Split points [251.33000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3251 3245]" -> "Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" [label="  x < 251.33"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" [label="Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" fillcolor="#bf0040b0"]
+	"Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" [label="Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" fillcolor="#4400bbb0"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" -> "Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" [label="  x < 5087.65"]
+	"Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" [label="Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" fillcolor="#4400bbb0"]
+	"Resulting target 
+59.15% -> no
+40.85% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [84 58]
+id = -174571" [label="Resulting target 
+59.15% -> no
+40.85% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [84 58]
+" fillcolor="#970068b0"]
+	"Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" -> "Resulting target 
+59.15% -> no
+40.85% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [84 58]
+id = -174571" [label="  x < 110.0"]
+	"Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" [label="Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" fillcolor="#3100ceb0"]
+	"Referencing column is Duration
+Split points [110.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [208 573]" -> "Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" [label="  x >= 110.0"]
+	"Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" [label="Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" fillcolor="#3100ceb0"]
+	"Resulting target 
+30.58% -> no
+69.42% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 74 168]
+id = 87359" [label="Resulting target 
+30.58% -> no
+69.42% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 74 168]
+" fillcolor="#4e00b1b0"]
+	"Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" -> "Resulting target 
+30.58% -> no
+69.42% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 74 168]
+id = 87359" [label="  x < 173.0"]
+	"Resulting target 
+12.59% -> no
+87.41% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 50 347]
+id = 87359" [label="Resulting target 
+12.59% -> no
+87.41% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 50 347]
+" fillcolor="#2000dfb0"]
+	"Referencing column is Duration
+Split points [173.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [124 515]" -> "Resulting target 
+12.59% -> no
+87.41% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 50 347]
+id = 87359" [label="  x >= 173.0"]
+	"Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" [label="Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" fillcolor="#e80017b0"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2315  781]" -> "Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" [label="  x >= 5087.65"]
+	"Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" [label="Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" fillcolor="#e80017b0"]
+	"Resulting target 
+47.57% -> no
+52.43% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137 151]
+id = 585632" [label="Resulting target 
+47.57% -> no
+52.43% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137 151]
+" fillcolor="#790086b0"]
+	"Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" -> "Resulting target 
+47.57% -> no
+52.43% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137 151]
+id = 585632" [label="  x < -46.2"]
+	"Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" [label="Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" fillcolor="#f80007b0"]
+	"Referencing column is cons.conf.idx
+Split points [-46.200000000000003]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2107  208]" -> "Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" [label="  x >= -46.2"]
+	"Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" [label="Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" fillcolor="#f80007b0"]
+	"Resulting target 
+25.0% -> no
+75.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 6]
+id = 933226" [label="Resulting target 
+25.0% -> no
+75.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 6]
+" fillcolor="#4000bfb0"]
+	"Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" -> "Resulting target 
+25.0% -> no
+75.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 6]
+id = 933226" [label="  x < 4.0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" [label="Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" fillcolor="#f90006b0"]
+	"Referencing column is Plays
+Split points [4.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1970   57]" -> "Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" [label="  x >= 4.0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" [label="Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" fillcolor="#f90006b0"]
+	"Resulting target 
+89.76% -> no
+10.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [228  26]
+id = 349898" [label="Resulting target 
+89.76% -> no
+10.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [228  26]
+" fillcolor="#e5001ab0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" -> "Resulting target 
+89.76% -> no
+10.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [228  26]
+id = 349898" [label="  fall"]
+	"Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" [label="Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" fillcolor="#f80007b0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" -> "Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" [label="  spring"]
+	"Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" [label="Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" fillcolor="#f80007b0"]
+	"Resulting target 
+86.33% -> no
+13.67% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [120  19]
+id = 563594" [label="Resulting target 
+86.33% -> no
+13.67% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [120  19]
+" fillcolor="#dc0023b0"]
+	"Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" -> "Resulting target 
+86.33% -> no
+13.67% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [120  19]
+id = 563594" [label="  x < 1.28"]
+	"Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" [label="Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" fillcolor="#fe0001b0"]
+	"Referencing column is euribor3m
+Split points [1.28]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [746  22]" -> "Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" [label="  x >= 1.28"]
+	"Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" [label="Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" fillcolor="#fe0001b0"]
+	"Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [72  0]
+id = 818548" [label="Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [72  0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" -> "Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [72  0]
+id = 818548" [label="  failure"]
+	"Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" [label="Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" fillcolor="#fe0001b0"]
+	"Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" -> "Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" [label="  nonexistent"]
+	"Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" [label="Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" fillcolor="#fe0001b0"]
+	"Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [498   0]
+id = -237092" [label="Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [498   0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" -> "Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [498   0]
+id = -237092" [label="  x < 53.0"]
+	"Resulting target 
+96.55% -> no
+3.45% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [56  2]
+id = -237092" [label="Resulting target 
+96.55% -> no
+3.45% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [56  2]
+" fillcolor="#f60009b0"]
+	"Referencing column is Age
+Split points [53.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [554   2]" -> "Resulting target 
+96.55% -> no
+3.45% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [56  2]
+id = -237092" [label="  x >= 53.0"]
+	"Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+id = 818548" [label="Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+" fillcolor="#0000ffb0"]
+	"Referencing column is Poutcome
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [626   3]" -> "Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+id = 818548" [label="  success"]
+	"Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" [label="Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" fillcolor="#fe0001b0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" -> "Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" [label="  summer"]
+	"Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" [label="Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" fillcolor="#fe0001b0"]
+	"Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" [label="Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" fillcolor="#ff0000b0"]
+	"Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" -> "Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" [label="  x < 243.0"]
+	"Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" [label="Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" fillcolor="#ff0000b0"]
+	"Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [838   0]
+id = -887138" [label="Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [838   0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" -> "Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [838   0]
+id = -887138" [label="  x < 194.0"]
+	"Resulting target 
+99.28% -> no
+0.72% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137   1]
+id = -887138" [label="Resulting target 
+99.28% -> no
+0.72% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137   1]
+" fillcolor="#fd0002b0"]
+	"Referencing column is Duration
+Split points [194.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [975   1]" -> "Resulting target 
+99.28% -> no
+0.72% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [137   1]
+id = -887138" [label="  x >= 194.0"]
+	"Resulting target 
+95.0% -> no
+5.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [19  1]
+id = -282212" [label="Resulting target 
+95.0% -> no
+5.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [19  1]
+" fillcolor="#f2000db0"]
+	"Referencing column is Duration
+Split points [243.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [994   2]" -> "Resulting target 
+95.0% -> no
+5.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [19  1]
+id = -282212" [label="  x >= 243.0"]
+	"Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+id = 349898" [label="Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+" fillcolor="#0000ffb0"]
+	"Referencing column is season
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1968   51]" -> "Resulting target 
+100.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [0 1]
+id = 349898" [label="  winter"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" [label="Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" fillcolor="#4600b9b0"]
+	"Referencing column is Duration
+Split points [251.33000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3251 3245]" -> "Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" [label="  x >= 251.33"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" [label="Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" fillcolor="#4600b9b0"]
+	"Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" [label="Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" fillcolor="#0d00f2b0"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" -> "Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" [label="  x < 5087.65"]
+	"Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" [label="Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" fillcolor="#0d00f2b0"]
+	"Resulting target 
+0.83% -> no
+99.17% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 357]
+id = -811188" [label="Resulting target 
+0.83% -> no
+99.17% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 357]
+" fillcolor="#0200fdb0"]
+	"Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" -> "Resulting target 
+0.83% -> no
+99.17% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 357]
+id = -811188" [label="  x < 999.0"]
+	"Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" [label="Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" fillcolor="#1400ebb0"]
+	"Referencing column is Plays
+Split points [999.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 52 941]" -> "Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" [label="  x >= 999.0"]
+	"Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" [label="Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" fillcolor="#1400ebb0"]
+	"Resulting target 
+7.32% -> no
+92.68% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 46 582]
+id = -232669" [label="Resulting target 
+7.32% -> no
+92.68% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 46 582]
+" fillcolor="#1300ecb0"]
+	"Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" -> "Resulting target 
+7.32% -> no
+92.68% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 46 582]
+id = -232669" [label="  x < 3.0"]
+	"Resulting target 
+60.0% -> no
+40.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3 2]
+id = -232669" [label="Resulting target 
+60.0% -> no
+40.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3 2]
+" fillcolor="#990066b0"]
+	"Referencing column is Previous
+Split points [3.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 584]" -> "Resulting target 
+60.0% -> no
+40.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [3 2]
+id = -232669" [label="  x >= 3.0"]
+	"Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" [label="Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" fillcolor="#5e00a1b0"]
+	"Referencing column is nr.employed
+Split points [5087.6499999999996]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 936 2464]" -> "Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" [label="  x >= 5087.65"]
+	"Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" [label="Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" fillcolor="#5e00a1b0"]
+	"Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" [label="Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" fillcolor="#ab0054b0"]
+	"Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" -> "Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" [label="  x < 491.0"]
+	"Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" [label="Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" fillcolor="#ab0054b0"]
+	"Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" [label="Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" fillcolor="#680097b0"]
+	"Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" -> "Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" [label="  x < -0.1"]
+	"Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" [label="Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" fillcolor="#680097b0"]
+	"Resulting target 
+59.54% -> no
+40.46% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103  70]
+id = -74176" [label="Resulting target 
+59.54% -> no
+40.46% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103  70]
+" fillcolor="#980067b0"]
+	"Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" -> "Resulting target 
+59.54% -> no
+40.46% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103  70]
+id = -74176" [label="  x < 1.35"]
+	"Resulting target 
+24.38% -> no
+75.62% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 152]
+id = -74176" [label="Resulting target 
+24.38% -> no
+75.62% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 152]
+" fillcolor="#3e00c1b0"]
+	"Referencing column is euribor3m
+Split points [1.3500000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152 222]" -> "Resulting target 
+24.38% -> no
+75.62% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 49 152]
+id = -74176" [label="  x >= 1.35"]
+	"Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" [label="Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" fillcolor="#d70028b0"]
+	"Referencing column is emp.var.rate
+Split points [-0.10000000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [629 310]" -> "Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" [label="  x >= -0.1"]
+	"Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" [label="Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" fillcolor="#d70028b0"]
+	"Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" [label="Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" fillcolor="#e80017b0"]
+	"Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" -> "Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" [label="  x < 414.0"]
+	"Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" [label="Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" fillcolor="#e80017b0"]
+	"Resulting target 
+93.88% -> no
+6.12% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [230  15]
+id = 972249" [label="Resulting target 
+93.88% -> no
+6.12% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [230  15]
+" fillcolor="#ef0010b0"]
+	"Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" -> "Resulting target 
+93.88% -> no
+6.12% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [230  15]
+id = 972249" [label="  x < 4.96"]
+	"Resulting target 
+87.36% -> no
+12.64% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152  22]
+id = 972249" [label="Resulting target 
+87.36% -> no
+12.64% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152  22]
+" fillcolor="#df0020b0"]
+	"Referencing column is euribor3m
+Split points [4.96]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [382  37]" -> "Resulting target 
+87.36% -> no
+12.64% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [152  22]
+id = 972249" [label="  x >= 4.96"]
+	"Resulting target 
+65.07% -> no
+34.93% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [95 51]
+id = 63716" [label="Resulting target 
+65.07% -> no
+34.93% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [95 51]
+" fillcolor="#a60059b0"]
+	"Referencing column is Duration
+Split points [414.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [477  88]" -> "Resulting target 
+65.07% -> no
+34.93% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [95 51]
+id = 63716" [label="  x >= 414.0"]
+	"Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" [label="Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" fillcolor="#2c00d3b0"]
+	"Referencing column is Duration
+Split points [491.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 884 1523]" -> "Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" [label="  x >= 491.0"]
+	"Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" [label="Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" fillcolor="#2c00d3b0"]
+	"Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" [label="Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" fillcolor="#4f00b0b0"]
+	"Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" -> "Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" [label="  x < 652.0"]
+	"Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" [label="Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" fillcolor="#4f00b0b0"]
+	"Resulting target 
+16.76% -> no
+83.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 30 149]
+id = 462378" [label="Resulting target 
+16.76% -> no
+83.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 30 149]
+" fillcolor="#2b00d4b0"]
+	"Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" -> "Resulting target 
+16.76% -> no
+83.24% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 30 149]
+id = 462378" [label="  x < 4.08"]
+	"Resulting target 
+39.65% -> no
+60.35% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [113 172]
+id = 462378" [label="Resulting target 
+39.65% -> no
+60.35% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [113 172]
+" fillcolor="#65009ab0"]
+	"Referencing column is euribor3m
+Split points [4.0800000000000001]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [143 321]" -> "Resulting target 
+39.65% -> no
+60.35% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [113 172]
+id = 462378" [label="  x >= 4.08"]
+	"Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" [label="Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" fillcolor="#1c00e3b0"]
+	"Referencing column is Duration
+Split points [652.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 255 1213]" -> "Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" [label="  x >= 652.0"]
+	"Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" [label="Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" fillcolor="#1c00e3b0"]
+	"Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 0]
+id = 961452" [label="Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" -> "Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [2 0]
+id = 961452" [label="  x < 21.0"]
+	"Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" [label="Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" fillcolor="#1c00e3b0"]
+	"Referencing column is Age
+Split points [21.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [112 892]" -> "Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" [label="  x >= 21.0"]
+	"Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" [label="Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" fillcolor="#1c00e3b0"]
+	"Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" [label="Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" fillcolor="#2000dfb0"]
+	"Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" -> "Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" [label="  x < 1327.0"]
+	"Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" [label="Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" fillcolor="#2000dfb0"]
+	"Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" [label="Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" fillcolor="#1f00e0b0"]
+	"Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" -> "Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" [label="  x < 4.97"]
+	"Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" [label="Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" fillcolor="#1f00e0b0"]
+	"Resulting target 
+10.26% -> no
+89.74% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  35.  306.]
+id = 703101" [label="Resulting target 
+10.26% -> no
+89.74% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  35.  306.]
+" fillcolor="#1a00e5b0"]
+	"Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" -> "Resulting target 
+10.26% -> no
+89.74% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  35.  306.]
+id = 703101" [label="  divorced,single"]
+	"Resulting target 
+13.43% -> no
+86.57% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 67 432]
+id = 703101" [label="Resulting target 
+13.43% -> no
+86.57% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 67 432]
+" fillcolor="#2200ddb0"]
+	"Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" -> "Resulting target 
+13.43% -> no
+86.57% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [ 67 432]
+id = 703101" [label="  married"]
+	"Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1 0]
+id = 703101" [label="Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1 0]
+" fillcolor="#ff0000b0"]
+	"Referencing column is Martial
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [103 738]" -> "Resulting target 
+100.0% -> no
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [1 0]
+id = 703101" [label="  unknown"]
+	"Resulting target 
+50.0% -> no
+50.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [4 4]
+id = -888157" [label="Resulting target 
+50.0% -> no
+50.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [4 4]
+" fillcolor="#800080b0"]
+	"Referencing column is euribor3m
+Split points [4.9699999999999998]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [107 742]" -> "Resulting target 
+50.0% -> no
+50.0% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [4 4]
+id = -888157" [label="  x >= 4.97"]
+	"Resulting target 
+1.96% -> no
+98.04% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 150]
+id = -652926" [label="Resulting target 
+1.96% -> no
+98.04% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 150]
+" fillcolor="#0500fab0"]
+	"Referencing column is Duration
+Split points [1327.0]
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [110 892]" -> "Resulting target 
+1.96% -> no
+98.04% -> yes
+
+Targets [no- Not Subscribed, yes- Subscribed]
+Training Samples [  3 150]
+id = -652926" [label="  x >= 1327.0"]
+	"#ff0000b0" [label="Target: no
+Not Subscribed" fillcolor="#ff0000b0" margin="0.5, 0.2"]
+	"#0000ffb0" [label="Target: yes
+Subscribed" fillcolor="#0000ffb0" margin="0.5, 0.2"]
+}

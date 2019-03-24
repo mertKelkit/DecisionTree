@@ -1,0 +1,333 @@
+digraph Tree {
+	node [color=black fontname="courier-bold" fontsize=16.0 margin="0.5, 0.5" shape=note style=filled]
+	edge [fontname="helvetica-bold"]
+	"Referencing column is DepTime
+Split points [  905.61  1328.  ]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [80956 19044]" [label="Referencing column is DepTime
+Split points [  905.61  1328.  ]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [80956 19044]" fillcolor="#ce0031b0"]
+	"Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" [label="Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" fillcolor="#da0025b0"]
+	"Referencing column is DepTime
+Split points [  905.61  1328.  ]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [80956 19044]" -> "Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" [label="  905.61 <= x < 1328.0"]
+	"Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" [label="Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" fillcolor="#da0025b0"]
+	"Resulting target 
+85.4% -> N
+14.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 23602.   4035.]
+id = 550317" [label="Resulting target 
+85.4% -> N
+14.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 23602.   4035.]
+" fillcolor="#da0025b0"]
+	"Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" -> "Resulting target 
+85.4% -> N
+14.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 23602.   4035.]
+id = 550317" [label="  ABE or PNS or FNT or CLE or KTN or LIH or JAC or CAK or SDF or TWF or OGG or SPI or DAL or PSG or DFW or BTV or MGM or HSV or IAH or CVG or EUG or LBB or PSC or CRP or ROA or BZN or JFK or RNO or AZO or LEX or CRW or HLN or RDU or GJT or IDA or BIL or CAE or LSE or VCT or LRD or BFL or STX or SAN or ACT or OTZ or RDM or CEC or HNL or CDV or BGR or GSP or MSY or FAR or MOB or BUF or TYS or CSG or SAT or DSM or OAK or MHT or CLT or ATL or ASE or SUN or CHO or MSO or JAX or MLU or ELP or SWF or CLL or FLG or BQN or AGS or SEA or FSM or BQK or MBS or LFT or SGU or FCA or FAI or LGA or JAN or PHX or BWI or RSW or MAF or TUP or PIH or DAY or IND or AEX or MFE or RIC or IYK or BIS or SCC or EKO or BDL or SPS or BTR or GRK or COS or ORF or HDN or BRO or MIA or MDW or CID or HOU or MEI or SIT or GPT or COD or SOP or PBI or TYR or LAN or VLD or SNA or LNK or CMI or SBN or FLO or CDC or DAB or FAT or ISO or HPN or SFO or SLC or SHV or MRY or JNU or ORD or GNV or LCH or PHF or STL or KOA or GSO or DHN or ACY or ACV or EVV or OME or AMA or AVL or LWS or CMH or CHS or BHM or HVN or ACK or SMF or SBP or ABI or SJC or GEG or MCO or APF or FAY or SBA or MDT or HRL or OKC or MSN or SMX or ICT or ABY or BMI or YAK or PHL or CWA or LWB or PWM or PDX or ONT or EGE or SJU or DBQ or GRB or XNA or WRG or BPT or MCI or ILM or PFN or LAX or SGF or LGB or MTJ or TVC or FSD or PIA or SRQ or TOL or CHA or BGM or VPS or GRR or RST or GTR or MFR or AKN or TLH or DRO or TPA or MLB or BTM or PVD or GGG or TUS or DTW or LIT or AVP or DLH or MKE or PIT or BNA or ATW or FLL or ALB or LAW or MLI or IAD or EWR or GTF or STT or EYW or ANC or YUM or FWA or SAV or SCE or LYH or CPR or OMA or BUR or AUS or ITO or HKY or GUC or ABQ or GFK or MOD or SJT or MEM or RDD or MYR or CIC or MSP or ISP or DCA or ERI or ROC or TUL or DEN or SYR or LAS or TXK or HTS or CLD or BOS or BOI or RAP or PSP"]
+	"Resulting target 
+21.74% -> N
+78.26% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  5.  18.]
+id = 550317" [label="Resulting target 
+21.74% -> N
+78.26% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  5.  18.]
+" fillcolor="#3700c8b0"]
+	"Referencing column is Dest
+Targets [N- No delay, Y- Delay]
+Training Samples [23607  4053]" -> "Resulting target 
+21.74% -> N
+78.26% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  5.  18.]
+id = 550317" [label="  WYS or BET or RFD or MOT or TRI or OXR or BLI or IPL or TTN or VIS"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" [label="Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" fillcolor="#f0000fb0"]
+	"Referencing column is DepTime
+Split points [  905.61  1328.  ]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [80956 19044]" -> "Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" [label="  x < 905.61"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" [label="Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" fillcolor="#f0000fb0"]
+	"Resulting target 
+99.4% -> N
+0.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [2958   18]
+id = -295063" [label="Resulting target 
+99.4% -> N
+0.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [2958   18]
+" fillcolor="#fd0002b0"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" -> "Resulting target 
+99.4% -> N
+0.6% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [2958   18]
+id = -295063" [label="  439.0 <= x < 614.37"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" fillcolor="#f70008b0"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" -> "Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" [label="  614.37 <= x < 710.39"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" fillcolor="#f70008b0"]
+	"Resulting target 
+100.0% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 0.  5.]
+id = -800848" [label="Resulting target 
+100.0% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 0.  5.]
+" fillcolor="#0000ffb0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" -> "Resulting target 
+100.0% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 0.  5.]
+id = -800848" [label="  BQN or MCN or SIT or CWA"]
+	"Resulting target 
+96.98% -> N
+3.02% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 6224.   194.]
+id = -800848" [label="Resulting target 
+96.98% -> N
+3.02% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 6224.   194.]
+" fillcolor="#f70008b0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [6224  199]" -> "Resulting target 
+96.98% -> N
+3.02% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 6224.   194.]
+id = -800848" [label="  PNS or ABE or FNT or CLE or LIH or TWF or CAK or SDF or JAC or OGG or SPI or DAL or DFW or BTV or MGM or HSV or IAH or CVG or EUG or LBB or PSC or CRP or ROA or BZN or JFK or RNO or AZO or LEX or CRW or HLN or RDU or IDA or GJT or BIL or CAE or LSE or LRD or BFL or SAN or ACT or RDM or HNL or BGR or GSP or MSY or FAR or MOB or BUF or TYS or CSG or MHT or CHO or OAK or SAT or CLT or DSM or ATL or ASE or SUN or MSO or ELP or JAX or MLU or CLL or FLG or ILG or AGS or SEA or BQK or MBS or LFT or SGU or FCA or FAI or LGA or BWI or PHX or RSW or DAY or JAN or MAF or PIH or IND or AEX or MFE or BIS or RIC or BDL or SPS or BTR or GRK or COS or ORF or BRO or HDN or MIA or MDW or HOU or CID or GPT or COD or PBI or TYR or LAN or VLD or SNA or LNK or CMI or SBN or DAB or FAT or ISO or HPN or SFO or SLC or MRY or SHV or JNU or ORD or GNV or LCH or PHF or STL or DHN or GSO or KOA or ACY or ACV or EVV or AMA or LWS or AVL or CMH or CHS or BHM or SMF or SBP or ABI or SJC or GEG or MCO or APF or FAY or MDT or SBA or HRL or OKC or MSN or SMX or ICT or BMI or ABY or PHL or PWM or PDX or ONT or BPT or SJU or GRB or XNA or MQT or MCI or ILM or PFN or LAX or SGF or LGB or MTJ or TVC or FSD or PIA or SRQ or TOL or CHA or BGM or GRR or VPS or RST or MFR or TLH or DRO or TPA or MLB or BTM or PVD or TUP or AVP or DTW or LIT or TUS or GGG or MKE or PIT or BNA or ATW or ALB or FLL or LAW or MLI or IAD or EWR or ANC or YUM or FWA or SAV or SCE or LYH or CPR or OMA or BUR or AUS or ITO or HKY or ABQ or GFK or SJT or MEM or RDD or MYR or CIC or MSP or ISP or DCA or ERI or ROC or TUL or DEN or SYR or LAS or TXK or HTS or CLD or BOS or BOI or RAP or PSP"]
+	"Resulting target 
+44.66% -> N
+55.34% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [188 233]
+id = -295063" [label="Resulting target 
+44.66% -> N
+55.34% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [188 233]
+" fillcolor="#72008db0"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" -> "Resulting target 
+44.66% -> N
+55.34% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [188 233]
+id = -295063" [label="  x < 439.0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" fillcolor="#ec0013b0"]
+	"Referencing column is DepTime
+Split points [ 439.    614.37  710.39]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [20794  1345]" -> "Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" [label="  x >= 710.39"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" fillcolor="#ec0013b0"]
+	"Resulting target 
+92.82% -> N
+7.18% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 11422.    884.]
+id = -319176" [label="Resulting target 
+92.82% -> N
+7.18% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 11422.    884.]
+" fillcolor="#ed0012b0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" -> "Resulting target 
+92.82% -> N
+7.18% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 11422.    884.]
+id = -319176" [label="  PNS or ABE or FNT or CLE or KTN or LIH or JAC or CAK or SDF or OGG or DAL or DFW or BTV or MGM or HSV or IAH or CVG or EUG or LBB or CRP or ROA or BZN or JFK or RNO or AZO or LEX or CRW or HLN or RDU or IDA or BIL or GJT or CAE or LSE or LRD or BFL or SAN or ACT or OTZ or CEC or HNL or BGR or GSP or MSY or FAR or MOB or BUF or TYS or CSG or SAT or MHT or OAK or ASE or ATL or CLT or DSM or SUN or MSO or JAX or ELP or SWF or CLL or FLG or BQN or AGS or SEA or FSM or MBS or LFT or SGU or FCA or FAI or LGA or BWI or JAN or RSW or PHX or MAF or DAY or MCN or IND or MFE or RIC or BIS or BET or EKO or BDL or SPS or BTR or GRK or COS or ORF or BRO or HDN or MIA or HOU or MDW or MEI or CID or SIT or COD or GPT or PBI or TYR or LAN or SNA or LNK or CMI or SBN or CDC or DAB or FAT or HPN or SFO or SLC or SHV or JNU or MRY or ORD or PHF or STL or KOA or GSO or DHN or ACV or EVV or AMA or CMH or MOT or CHS or BHM or SMF or SBP or ABI or SJC or GEG or MCO or MDT or SBA or FAY or HRL or OKC or MSN or ICT or PHL or PWM or PDX or ONT or EGE or SJU or ADQ or GRB or XNA or MQT or MCI or BPT or PFN or LAX or TVC or SGF or LGB or MTJ or FSD or PIA or SRQ or TOL or BGM or GRR or RST or MFR or TLH or DRO or TPA or MLB or DLH or PVD or TUS or DTW or AVP or LIT or MKE or PIT or BNA or ATW or FLL or ALB or ILM or LAW or IAD or EWR or GTF or STT or ANC or YUM or FWA or SAV or CPR or OMA or ITO or AUS or BUR or HKY or ABQ or MOD or GFK or SJT or MEM or RDD or MYR or MSP or ISP or DCA or ROC or TUL or DEN or SYR or LAS or TXK or CLD or BOS or BOI or RAP or PSP"]
+	"Resulting target 
+15.38% -> N
+84.62% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  2.  11.]
+id = -319176" [label="Resulting target 
+15.38% -> N
+84.62% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  2.  11.]
+" fillcolor="#2700d8b0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [11424   895]" -> "Resulting target 
+15.38% -> N
+84.62% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [  2.  11.]
+id = -319176" [label="  RDM or AEX or CHA or VPS or BTM or MLI or EYW or HTS"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" fillcolor="#ba0045b0"]
+	"Referencing column is DepTime
+Split points [  905.61  1328.  ]
+
+Targets [N- No delay, Y- Delay]
+Training Samples [80956 19044]" -> "Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" [label="  x >= 1328.0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" [label="Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" fillcolor="#ba0045b0"]
+	"Resulting target 
+32.93% -> N
+67.07% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 27.  55.]
+id = 572816" [label="Resulting target 
+32.93% -> N
+67.07% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 27.  55.]
+" fillcolor="#5400abb0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" -> "Resulting target 
+32.93% -> N
+67.07% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 27.  55.]
+id = 572816" [label="  OTZ or AGS or TEX or SCC or COD or LNK or BRW or LWB or ADQ or PFN or AKN or BLI or ADK or DLG or GUC or GST"]
+	"Resulting target 
+72.88% -> N
+27.12% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 36528.  13591.]
+id = 572816" [label="Resulting target 
+72.88% -> N
+27.12% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 36528.  13591.]
+" fillcolor="#ba0045b0"]
+	"Referencing column is Origin
+Targets [N- No delay, Y- Delay]
+Training Samples [36555 13646]" -> "Resulting target 
+72.88% -> N
+27.12% -> Y
+
+Targets [N- No delay, Y- Delay]
+Training Samples [ 36528.  13591.]
+id = 572816" [label="  PNS or ABE or FNT or CLE or KTN or LIH or TWF or CAK or SDF or JAC or OGG or SPI or DAL or PSG or DFW or BTV or MGM or HSV or IAH or CVG or EUG or LBB or PSC or CRP or ROA or BZN or JFK or RNO or AZO or LEX or CRW or HLN or RDU or BIL or GJT or IDA or CAE or LSE or LRD or BFL or STX or SAN or ACT or RDM or CEC or HNL or CDV or BGR or GSP or MSY or FAR or MOB or BUF or TYS or CSG or DSM or SAT or OAK or MHT or ATL or CLT or SUN or ASE or CHO or SWF or JAX or MLU or ELP or CLL or FLG or SEA or FSM or BQK or MBS or LFT or SGU or FCA or FAI or LGA or BWI or PHX or RSW or MAF or JAN or DAY or AEX or PIH or IND or MFE or RIC or BIS or IYK or BET or BDL or SPS or EKO or BTR or GRK or COS or ORF or HDN or BRO or CID or MDW or HOU or MIA or MEI or SIT or GPT or RFD or PBI or TYR or LAN or VLD or SNA or CMI or SBN or FLO or CDC or DAB or FAT or ISO or HPN or SFO or SLC or SHV or MRY or JNU or ORD or GNV or LCH or PHF or STL or KOA or GSO or DHN or ACV or ACY or EVV or OME or BOS or AMA or AVL or CMH or MOT or CHS or BHM or HVN or SMF or SBP or ABI or SJC or GEG or MCO or TRI or APF or MDT or SBA or FAY or HRL or OKC or MSN or DLH or CWA or SMX or ICT or BMI or ABY or OXR or PHL or YAK or PWM or PDX or ONT or EGE or SJU or DBQ or GRB or XNA or WRG or MCI or ILM or LAX or LGB or SGF or MTJ or TVC or FSD or PIA or SRQ or TOL or CHA or BGM or VPS or RST or GRR or GTR or MFR or TLH or DRO or TPA or MLB or BTM or PVD or GGG or TUS or LIT or DTW or AVP or TUP or MKE or PIT or BNA or ATW or FLL or ALB or LAW or MLI or IAD or EWR or GTF or STT or ANC or EYW or YUM or FWA or SAV or LYH or SCE or CPR or OMA or BUR or AUS or ITO or ABQ or MOD or GFK or IPL or SJT or MEM or RDD or MYR or CIC or MSP or ISP or DCA or ERI or ROC or TUL or DEN or SYR or LAS or TXK or HTS or CLD or MSO or BOI or RAP or PSP"]
+	"#ff0000b0" [label="Target: N
+No delay" fillcolor="#ff0000b0" margin="0.6, 0.2"]
+	"#0000ffb0" [label="Target: Y
+Delay" fillcolor="#0000ffb0" margin="0.6, 0.2"]
+}
